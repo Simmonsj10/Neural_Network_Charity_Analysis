@@ -58,7 +58,7 @@ For the third and fourth attempt, we used the hidden layer and neuron layers fro
 
 
 ##### Optimization Attempt 5: Mission Accomplished
-For the five optimization attempt, we reviewed the ASK_AMT data and reviewed extreme outliers in the dataset. We found a few ask amounts exceeded $4M and decided to drop those rows. 
+For the fifth optimization attempt, we reviewed the ASK_AMT data and reviewed extreme outliers in the dataset. We found a few ask amounts exceeded $4M and decided to drop those rows. 
 ![Images/Model_6_DataReview.png](Images/Model_6_DataReview.png)
 
 ![Images/Model_6_Scatter.png](Images/Model_6_Scatter.png)
@@ -70,4 +70,4 @@ We reverted the application and classification categorical groups to their origi
 
 
 ## Summary
-By removing outliers from the underlying dataset and increasing the number of layers and neurons in the model, we were able to optimize the deep learning model from 73% accuracy to 75% accuracy.
+By removing outliers from the underlying dataset and increasing the number of layers and neurons in the model, we were able to optimize the deep learning model from 73% accuracy to 75% accuracy. This effort took several efforts and we should consider creating a different deep learning model for large gift asks, if there is sufficient data. However, large gift giving may not be in our foundation's area of expertise and may not be worth pursuing.
