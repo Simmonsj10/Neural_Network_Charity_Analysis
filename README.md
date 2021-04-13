@@ -42,7 +42,7 @@ The model performed well and achieved 73% accuracy!
 Although 73% accuracy is good, we want to improve the model to at least 75% accuracy. The Jupyter Notebook file only provides five optimizations attempts, but many more attempts were made! In the sections below, we've provided descriptions on the optimization attempts.
 
 ##### Optimization Attempt 1: Fail
-For the first attempt, we decreased the number of appplication and classification categorical variables by increasing the size of the "Other" group. Unfortunately this worsened the accuracy of the model from 72% to 70%.
+For the first attempt, we decreased the number of appplication and classification categorical variables by increasing the size of the "Other" group. Unfortunately this worsened the accuracy of the model from 73% to 70%.
 ![Images/Model_2_DataChg.png](Images/Model_2_DataChg.png)
 ![Images/Model_2_Output.png](Images/Model_2_Output.png)
 
